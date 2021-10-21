@@ -1,0 +1,286 @@
+2021-10-20 11:52:22,643 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.orElseThrow(Optional.java:375)
+	at example.microservice.HelloWebServerAPIGateway.PublicFacingController.greeting(PublicFacingController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-10-20 11:52:24,949 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.orElseThrow(Optional.java:375)
+	at example.microservice.HelloWebServerAPIGateway.PublicFacingController.greeting(PublicFacingController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-10-20 12:06:59,215 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HelloWebServerApiGatewayApplication using Java 15.0.2 on Louiss-MacBook-Pro.local with PID 1430 (/Users/louismoloney/eclipse Spring STS/HelloWebServerAPIGateway/target/classes started by louismoloney in /Users/louismoloney/eclipse Spring STS/HelloWebServerAPIGateway)
+2021-10-20 12:06:59,217 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-10-20 12:06:59,344 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=9d58367e-712b-3ec4-9b9a-9d2c33d36b29
+2021-10-20 12:06:59,400 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-10-20 12:06:59,402 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-20 12:06:59,402 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-10-20 12:06:59,403 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-20 12:06:59,421 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-10-20 12:06:59,422 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 203 ms
+2021-10-20 12:06:59,506 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-10-20 12:06:59,508 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2021-10-20 12:06:59,536 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-10-20 12:06:59,553 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2021-10-20 12:06:59,565 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2021-10-20 12:06:59,567 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2021-10-20 12:06:59,576 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2021-10-20 12:06:59,576 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2021-10-20 12:06:59,576 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2021-10-20 12:06:59,576 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2021-10-20 12:06:59,577 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2021-10-20 12:06:59,577 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2021-10-20 12:06:59,577 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2021-10-20 12:06:59,593 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2021-10-20 12:06:59,596 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2021-10-20 12:06:59,600 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-20 12:06:59,606 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1634728019606 with initial instances count: 2
+2021-10-20 12:06:59,607 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application UNKNOWN with eureka with status UP
+2021-10-20 12:06:59,608 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1634728019608, current=UP, previous=STARTING]
+2021-10-20 12:06:59,608 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12: registering service...
+2021-10-20 12:06:59,609 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-10-20 12:06:59,610 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-20 12:06:59,611 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8080
+2021-10-20 12:06:59,623 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HelloWebServerApiGatewayApplication in 0.45 seconds (JVM running for 773.527)
+2021-10-20 12:06:59,623 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12 - registration status: 204
+2021-10-20 12:06:59,624 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-20 12:06:59,625 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-20 12:06:59,626 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-10-20 12:06:59,626 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-10-20 12:06:59,631 INFO example.microservice.HelloWebServerAPIGateway.PublicFacingController [http-nio-8080-exec-1] JSON is :  k = message , v = I am the hello world object 
+2021-10-20 12:07:00,020 INFO example.microservice.HelloWebServerAPIGateway.PublicFacingController [http-nio-8080-exec-2] JSON is :  k = message , v = I am the hello world object 
+2021-10-20 12:07:00,872 INFO example.microservice.HelloWebServerAPIGateway.PublicFacingController [http-nio-8080-exec-3] JSON is :  k = message , v = I am the hello world object 
+2021-10-20 12:08:00,337 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-7] Unregistering application UNKNOWN with eureka with status DOWN
+2021-10-20 12:08:00,337 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-7] Saw local status change event StatusChangeEvent [timestamp=1634728080337, current=DOWN, previous=UP]
+2021-10-20 12:08:00,337 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12: registering service...
+2021-10-20 12:08:00,340 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12 - registration status: 204
+2021-10-20 12:08:00,349 INFO com.netflix.discovery.DiscoveryClient [Thread-7] Shutting down DiscoveryClient ...
+2021-10-20 12:08:03,363 INFO com.netflix.discovery.DiscoveryClient [Thread-7] Unregistering ...
+2021-10-20 12:08:03,368 INFO com.netflix.discovery.DiscoveryClient [Thread-7] DiscoveryClient_UNKNOWN/192.168.0.12 - deregister  status: 200
+2021-10-20 12:08:03,403 INFO com.netflix.discovery.DiscoveryClient [Thread-7] Completed shut down of DiscoveryClient
+2021-10-20 12:08:03,597 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HelloWebServerApiGatewayApplication using Java 15.0.2 on Louiss-MacBook-Pro.local with PID 1430 (/Users/louismoloney/eclipse Spring STS/HelloWebServerAPIGateway/target/classes started by louismoloney in /Users/louismoloney/eclipse Spring STS/HelloWebServerAPIGateway)
+2021-10-20 12:08:03,597 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-10-20 12:08:03,704 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=9d58367e-712b-3ec4-9b9a-9d2c33d36b29
+2021-10-20 12:08:03,733 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-10-20 12:08:03,733 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-20 12:08:03,733 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-10-20 12:08:03,734 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-20 12:08:03,747 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-10-20 12:08:03,747 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 148 ms
+2021-10-20 12:08:03,806 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-10-20 12:08:03,809 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2021-10-20 12:08:03,833 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-10-20 12:08:03,846 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2021-10-20 12:08:03,860 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2021-10-20 12:08:03,860 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2021-10-20 12:08:03,867 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2021-10-20 12:08:03,868 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2021-10-20 12:08:03,868 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2021-10-20 12:08:03,868 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2021-10-20 12:08:03,868 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2021-10-20 12:08:03,868 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2021-10-20 12:08:03,868 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2021-10-20 12:08:03,882 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2021-10-20 12:08:03,885 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2021-10-20 12:08:03,888 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-20 12:08:03,895 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1634728083895 with initial instances count: 2
+2021-10-20 12:08:03,896 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application UNKNOWN with eureka with status UP
+2021-10-20 12:08:03,896 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1634728083896, current=UP, previous=STARTING]
+2021-10-20 12:08:03,896 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12: registering service...
+2021-10-20 12:08:03,896 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-10-20 12:08:03,897 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-20 12:08:03,899 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8080
+2021-10-20 12:08:03,907 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HelloWebServerApiGatewayApplication in 0.475 seconds (JVM running for 837.813)
+2021-10-20 12:08:03,909 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-10-20 12:08:03,909 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12 - registration status: 204
+2021-10-20 12:09:18,726 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-13] Unregistering application UNKNOWN with eureka with status DOWN
+2021-10-20 12:09:18,727 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-13] Saw local status change event StatusChangeEvent [timestamp=1634728158727, current=DOWN, previous=UP]
+2021-10-20 12:09:18,727 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12: registering service...
+2021-10-20 12:09:18,731 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12 - registration status: 204
+2021-10-20 12:09:18,738 INFO com.netflix.discovery.DiscoveryClient [Thread-13] Shutting down DiscoveryClient ...
+2021-10-20 12:09:21,750 INFO com.netflix.discovery.DiscoveryClient [Thread-13] Unregistering ...
+2021-10-20 12:09:21,753 INFO com.netflix.discovery.DiscoveryClient [Thread-13] DiscoveryClient_UNKNOWN/192.168.0.12 - deregister  status: 200
+2021-10-20 12:09:21,789 INFO com.netflix.discovery.DiscoveryClient [Thread-13] Completed shut down of DiscoveryClient
+2021-10-20 12:09:21,858 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HelloWebServerApiGatewayApplication using Java 15.0.2 on Louiss-MacBook-Pro.local with PID 1430 (/Users/louismoloney/eclipse Spring STS/HelloWebServerAPIGateway/target/classes started by louismoloney in /Users/louismoloney/eclipse Spring STS/HelloWebServerAPIGateway)
+2021-10-20 12:09:21,858 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-10-20 12:09:21,963 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=9d58367e-712b-3ec4-9b9a-9d2c33d36b29
+2021-10-20 12:09:21,989 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-10-20 12:09:21,989 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-20 12:09:21,990 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-10-20 12:09:21,990 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-20 12:09:22,002 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-10-20 12:09:22,003 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 143 ms
+2021-10-20 12:09:22,062 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-10-20 12:09:22,064 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2021-10-20 12:09:22,084 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-10-20 12:09:22,096 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2021-10-20 12:09:22,107 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2021-10-20 12:09:22,107 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2021-10-20 12:09:22,113 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2021-10-20 12:09:22,113 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2021-10-20 12:09:22,113 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2021-10-20 12:09:22,114 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2021-10-20 12:09:22,114 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2021-10-20 12:09:22,114 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2021-10-20 12:09:22,114 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2021-10-20 12:09:22,128 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2021-10-20 12:09:22,131 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2021-10-20 12:09:22,135 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-20 12:09:22,142 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1634728162142 with initial instances count: 2
+2021-10-20 12:09:22,142 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application UNKNOWN with eureka with status UP
+2021-10-20 12:09:22,142 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1634728162142, current=UP, previous=STARTING]
+2021-10-20 12:09:22,142 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12: registering service...
+2021-10-20 12:09:22,143 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-10-20 12:09:22,144 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-20 12:09:22,144 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8080
+2021-10-20 12:09:22,151 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HelloWebServerApiGatewayApplication in 0.331 seconds (JVM running for 916.058)
+2021-10-20 12:09:22,151 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12 - registration status: 204
+2021-10-20 12:09:22,152 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-10-20 12:09:38,571 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-19] Unregistering application UNKNOWN with eureka with status DOWN
+2021-10-20 12:09:38,571 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-19] Saw local status change event StatusChangeEvent [timestamp=1634728178571, current=DOWN, previous=UP]
+2021-10-20 12:09:38,571 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12: registering service...
+2021-10-20 12:09:38,575 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12 - registration status: 204
+2021-10-20 12:09:38,581 INFO com.netflix.discovery.DiscoveryClient [Thread-19] Shutting down DiscoveryClient ...
+2021-10-20 12:09:41,591 INFO com.netflix.discovery.DiscoveryClient [Thread-19] Unregistering ...
+2021-10-20 12:09:41,594 INFO com.netflix.discovery.DiscoveryClient [Thread-19] DiscoveryClient_UNKNOWN/192.168.0.12 - deregister  status: 200
+2021-10-20 12:09:41,628 INFO com.netflix.discovery.DiscoveryClient [Thread-19] Completed shut down of DiscoveryClient
+2021-10-20 12:09:41,684 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HelloWebServerApiGatewayApplication using Java 15.0.2 on Louiss-MacBook-Pro.local with PID 1430 (/Users/louismoloney/eclipse Spring STS/HelloWebServerAPIGateway/target/classes started by louismoloney in /Users/louismoloney/eclipse Spring STS/HelloWebServerAPIGateway)
+2021-10-20 12:09:41,684 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-10-20 12:09:41,808 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=9d58367e-712b-3ec4-9b9a-9d2c33d36b29
+2021-10-20 12:09:41,838 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-10-20 12:09:41,838 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-20 12:09:41,839 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-10-20 12:09:41,839 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-20 12:09:41,856 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-10-20 12:09:41,856 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 171 ms
+2021-10-20 12:09:41,927 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-10-20 12:09:41,932 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2021-10-20 12:09:41,954 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-10-20 12:09:41,969 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2021-10-20 12:09:41,982 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2021-10-20 12:09:41,982 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2021-10-20 12:09:41,988 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2021-10-20 12:09:41,989 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2021-10-20 12:09:41,989 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2021-10-20 12:09:41,989 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2021-10-20 12:09:41,989 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2021-10-20 12:09:41,989 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2021-10-20 12:09:41,989 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2021-10-20 12:09:42,001 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2021-10-20 12:09:42,005 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2021-10-20 12:09:42,008 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-20 12:09:42,016 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1634728182016 with initial instances count: 2
+2021-10-20 12:09:42,017 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application UNKNOWN with eureka with status UP
+2021-10-20 12:09:42,017 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1634728182017, current=UP, previous=STARTING]
+2021-10-20 12:09:42,018 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12: registering service...
+2021-10-20 12:09:42,018 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-10-20 12:09:42,019 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-20 12:09:42,020 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8080
+2021-10-20 12:09:42,027 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HelloWebServerApiGatewayApplication in 0.364 seconds (JVM running for 935.934)
+2021-10-20 12:09:42,027 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12 - registration status: 204
+2021-10-20 12:09:42,028 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-10-20 12:09:55,424 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [Thread-25] Unregistering application UNKNOWN with eureka with status DOWN
+2021-10-20 12:09:55,424 INFO com.netflix.discovery.DiscoveryClient$3 [Thread-25] Saw local status change event StatusChangeEvent [timestamp=1634728195424, current=DOWN, previous=UP]
+2021-10-20 12:09:55,424 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12: registering service...
+2021-10-20 12:09:55,428 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12 - registration status: 204
+2021-10-20 12:09:55,434 INFO com.netflix.discovery.DiscoveryClient [Thread-25] Shutting down DiscoveryClient ...
+2021-10-20 12:09:58,442 INFO com.netflix.discovery.DiscoveryClient [Thread-25] Unregistering ...
+2021-10-20 12:09:58,445 INFO com.netflix.discovery.DiscoveryClient [Thread-25] DiscoveryClient_UNKNOWN/192.168.0.12 - deregister  status: 200
+2021-10-20 12:09:58,480 INFO com.netflix.discovery.DiscoveryClient [Thread-25] Completed shut down of DiscoveryClient

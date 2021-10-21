@@ -1,0 +1,63 @@
+2021-10-18 14:31:42,320 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting HelloWebServerApiGatewayApplication using Java 15.0.2 on UNKNOWN with PID 1823 (/Users/louismoloney/eclipse Spring STS/HelloWebServerAPIGateway/target/classes started by louismoloney in /Users/louismoloney/eclipse Spring STS/HelloWebServerAPIGateway)
+2021-10-18 14:31:42,321 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-10-18 14:31:42,438 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=9d58367e-712b-3ec4-9b9a-9d2c33d36b29
+2021-10-18 14:31:42,471 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-10-18 14:31:42,472 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-10-18 14:31:42,472 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-18 14:31:42,483 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-10-18 14:31:42,484 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 162 ms
+2021-10-18 14:31:42,533 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-10-18 14:31:42,548 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2021-10-18 14:31:42,568 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-10-18 14:31:42,579 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2021-10-18 14:31:42,591 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2021-10-18 14:31:42,591 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2021-10-18 14:31:42,597 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2021-10-18 14:31:42,597 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2021-10-18 14:31:42,598 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2021-10-18 14:31:42,598 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2021-10-18 14:31:42,598 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2021-10-18 14:31:42,598 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2021-10-18 14:31:42,598 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2021-10-18 14:31:42,609 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2021-10-18 14:31:42,612 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2021-10-18 14:31:42,615 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-18 14:31:42,621 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1634563902621 with initial instances count: 0
+2021-10-18 14:31:42,621 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application UNKNOWN with eureka with status UP
+2021-10-18 14:31:42,621 INFO com.netflix.discovery.DiscoveryClient$3 [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1634563902621, current=UP, previous=STARTING]
+2021-10-18 14:31:42,621 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12: registering service...
+2021-10-18 14:31:42,623 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-18 14:31:42,623 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8080
+2021-10-18 14:31:42,629 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started HelloWebServerApiGatewayApplication in 0.365 seconds (JVM running for 4624.265)
+2021-10-18 14:31:42,630 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12 - registration status: 204
+2021-10-18 14:31:42,631 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-10-18 14:32:12,615 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Disable delta property : false
+2021-10-18 14:32:12,616 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Single vip registry refresh property : null
+2021-10-18 14:32:12,616 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Force full registry fetch : false
+2021-10-18 14:32:12,616 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application is null : false
+2021-10-18 14:32:12,616 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Registered Applications size is zero : true
+2021-10-18 14:32:12,616 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Application version is -1: false
+2021-10-18 14:32:12,616 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] Getting all instance registry info from the eureka server
+2021-10-18 14:32:12,620 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-CacheRefreshExecutor-0] The response status is 200
+2021-10-18 14:33:21,509 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-18 14:33:21,509 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-18 14:33:21,510 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-10-18 14:36:42,594 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-18 14:41:42,589 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-18 15:12:25,021 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-18 15:17:25,018 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-18 15:22:25,018 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-18 15:27:25,017 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-18 15:32:25,015 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-18 15:37:25,014 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-18 15:42:25,014 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-18 15:47:25,076 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-10-18 15:50:05,572 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(162)-127.0.0.1] Application shutdown requested.
+2021-10-18 15:50:05,573 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(162)-127.0.0.1] Unregistering application UNKNOWN with eureka with status DOWN
+2021-10-18 15:50:05,574 INFO com.netflix.discovery.DiscoveryClient$3 [RMI TCP Connection(162)-127.0.0.1] Saw local status change event StatusChangeEvent [timestamp=1634568605574, current=DOWN, previous=UP]
+2021-10-18 15:50:05,574 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12: registering service...
+2021-10-18 15:50:05,579 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_UNKNOWN/192.168.0.12 - registration status: 204
+2021-10-18 15:50:05,585 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(162)-127.0.0.1] Shutting down DiscoveryClient ...
+2021-10-18 15:50:08,595 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(162)-127.0.0.1] Unregistering ...
+2021-10-18 15:50:08,597 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(162)-127.0.0.1] DiscoveryClient_UNKNOWN/192.168.0.12 - deregister  status: 200
+2021-10-18 15:50:08,632 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(162)-127.0.0.1] Completed shut down of DiscoveryClient
